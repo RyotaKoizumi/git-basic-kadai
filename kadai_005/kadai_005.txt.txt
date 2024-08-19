@@ -1,0 +1,15 @@
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git init
+Initialized empty Git repository in C:/Users/orger/Desktop/samurai-terakoya/git_challenge/.git/
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git add .
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git commit -m "hello_world.txtを追加" 
+[main (root-commit) 897b59a] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt.txt
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git add .
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git commit -m "日本語訳を追記"
+[main fdcfaf2] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> git log --oneline
+fdcfaf2 (HEAD -> main) 日本語訳を追記
+897b59a hello_world.txtを追加
+PS C:\Users\orger\Desktop\samurai-terakoya\git_challenge> 
